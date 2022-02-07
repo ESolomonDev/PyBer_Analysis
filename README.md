@@ -5,20 +5,28 @@ The purpose of this analysis is to compare ride share data that is broken down a
 The overwhelming majority of fares collected by PyBer where from the shear volume of rides within the urban environment.  Ride share services are more popular in cities for multiple reasons, but plain population density is likely to account for most of the disparity in fares, volume of rides and drivers respectively.  Urban environments account for nearly 62.7% of the total fares collected by PyBer as well as 68.4% of the rides serviced with PyBer, however, urban environments account for 80.9% of the drivers partnered with PyBer.
 Suburban environments accounted for 30.5% of the total fares collected while representing 26.3% of the total rides and only 16.5% of PyBer’s partnered drivers.  While suburban environments account for less of the overall fares collected for PyBer the ratio between fares and drivers (or fares and volume of rides) is higher than that of urban environments.
 Rural environments accounted for the smallest of the total fares only obtaining 6.8% of the total fares obtained in this data set and similarly only 5.3% of the total rides. However, this segment of fares was serviced by only 2.6% of our total partnered drivers.  Thus, the ratio of fares per driver is doubled when comparing urban to suburban drivers and even grater when compared to data collected from rural settings.
+
 Data Summary:
-![pyber_summary_df](Resources/pyber_summary_df.png)
+
+![PyBer_Analysis](analysis/pyber_summary_df.PNG)
 
 Fares by environment:
-![Fig5](Resources/Fig5.png)
-![Fig3](Resources/Fig3.png)
+
+![PyBer_Analysis](analysis/Fig5.png)
+
 Rides by environment:
-![Fig6](Resources/Fig6.png)
-![Fig2](Resources/Fig2.png)
+
+![PyBer_Analysis](analysis/Fig6.png)
+
+
 Drivers by environment:
-![Fig7](Resources/Fig7.png)
-![Fig4](Resources/Fig4.png)
+
+![PyBer_Analysis](analysis/Fig7.png)
+
+
 The second part of this analysis went further to compare fares collected in the three different settings grouped into summarized data points to see how the total number of fares changed (weekly) over the course of a few months.  This data reveals a spike in ride share demand just before March in late February across all three of the environments and then fluctuates in a mildly general downward trend towards the end of April.  Learning what is responsible for the heightened demand just before march could provide insight for future analysis.
-![PyBer_fare_summary](Resources/PyBer_fare_summary.png)
+
+![PyBer_Analysis](analysis/PyBer_fare_summary.png)
 
 ## Summary
 After sifting through the data three recommendations for the future is as follows:
